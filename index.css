@@ -53,7 +53,7 @@ nav {
 
 header {
     background: rgb(32, 101, 136);
-    background-image: url(../starter-code/images/city-scape.svg);
+    background-image: url(./images/city-scape.svg);
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: top;  
@@ -170,7 +170,7 @@ header {
   /* whatis section */
 
   .whatis {
-    background-image: url(../starter-code/images/forklift.svg);
+    background-image: url(./images/forklift.svg);
     background-size: cover;
     height: 400px;
     padding-top: 10%;
