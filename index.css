@@ -216,6 +216,18 @@ header {
     padding: 5%;
   }
 
+  .whatcan h2, .whatcan h3 {
+    color: rgb(83, 88, 98);
+  }
+
+ .whatcan p {
+   color: rgb(135, 145, 156);
+ }
+
+ .whatcan a {
+   color: rgb(208, 74, 73);
+ }
+
 
 @media screen and (max-width: 1020px) {
 
@@ -257,6 +269,14 @@ header {
     width: 50%;
     margin: 0 auto;
     padding: 5%;
+  }
+
+  .whatcan h2, .whatcan h3 {
+      color: rgb(83, 88, 98);
+  }
+
+  .whatcan p {
+    color: green;
   }
 
 }
