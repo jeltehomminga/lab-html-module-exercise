@@ -3,6 +3,7 @@ body {
     font-family: 'Source Sans Pro';
     background: #C12127;
     color: white;
+    min-width: 410px;
 }
 
 /* navigation bar */
@@ -11,19 +12,13 @@ nav {
     margin: 0;
     display: flex;
     justify-content: space-between;
-    background-color: #C12127;
     color: rgba(255,255,255,0.8);
-    padding: 10px;
-    height: 15px;
+    padding: 5px;
   }
   
   nav a {
     color: rgba(255,255,255,0.8);
     text-decoration: none;
-  }
-
-  .top-left {
-      min-width: 270px;
   }
 
   .heart, 
@@ -32,17 +27,11 @@ nav {
     } 
 
   .top-links {
-    display: flex;
     flex-wrap: wrap;
     margin: auto;
-    align-content: space-between; 
-    vertical-align: auto;
-    /* min-width: 460px; */
   }
   
-  .top-links {
-    padding: 0px;
-  }
+  
   .top-links li {
     display: inline-block;
     margin: 0 10px;
@@ -57,10 +46,8 @@ header {
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: top;  
-    padding-top: 0; 
     padding-bottom: 100px; 
 }
-
 
   .search {
       display: flex;
@@ -110,8 +97,6 @@ header {
 
 
   /* headercontent */
-
-
   .buildcontent {
     width: 30%;
     margin-top: 5%;
@@ -130,7 +115,6 @@ header {
   }
 
   /* collaboration section */
-
   .collaboration {
     width: 100%;
     background: rgb(39, 53, 71);
@@ -168,7 +152,6 @@ header {
   }
 
   /* whatis section */
-
   .whatis {
     background-image: url(./images/forklift.svg);
     background-size: cover;
@@ -286,7 +269,6 @@ header {
 
   .buildcontent {
     padding-top: 108%;
-
   }
 
   .whatiscontent {
